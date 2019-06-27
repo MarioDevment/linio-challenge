@@ -1,0 +1,24 @@
+{
+    "description": "Challenge – Backend Developer of Linio by MarioDevment",
+    "type": "project",
+    "license": [
+        "LGPL-2.1-only",
+        "GPL-3.0-or-later"
+    ],
+    "require": {
+        "php": "^7.1"
+    },
+    "require-dev": {
+
+    },
+    "autoload": {
+        "psr-4": {
+            "MarioDevment\\Linio\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "MarioDevment\\Linio\\Test\\": "test/"
+        }
+    }
+}
