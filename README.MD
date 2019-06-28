@@ -12,7 +12,7 @@ But here's the catch: you can use only one `if`. No multiple branches, ternary o
 
 ### Installation
 
-    composer install
+    php composer.phar install
     
 ### Execute
     
