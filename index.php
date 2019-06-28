@@ -1,9 +1,14 @@
 <?php
 declare(strict_types=1);
 
+use MarioDevment\Linio\Application\Challenge;
+use MarioDevment\Linio\Infrastructure\InMemoryRepository;
+
 require_once __DIR__ . '/vendor/autoload.php';
 
-use MarioDevment\Linio\Challenge;
+$repository = new InMemoryRepository();
+$app = new Challenge($repository);
 
-$challenge = new Challenge();
-print json_encode($challenge(), JSON_PRETTY_PRINT);
+//TODO: This is just a basic controller, you can display the data according to your convenience.
+print(json_encode($app(), JSON_PRETTY_PRINT));
+
