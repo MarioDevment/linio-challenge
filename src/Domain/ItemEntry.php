@@ -23,7 +23,7 @@ final class ItemEntry implements JsonSerializable
         return $this->index;
     }
 
-    public function Message(): ItemMessage
+    public function message(): ItemMessage
     {
         return $this->message;
     }

@@ -5,7 +5,7 @@ namespace MarioDevment\Linio\Infrastructure;
 
 use MarioDevment\Linio\Domain\Repository;
 
-final class InMemoryRepository implements Repository
+class InMemoryRepository implements Repository
 {
     private const MAX_ITEMS = 100;
     private $result = [];

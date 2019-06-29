@@ -18,6 +18,10 @@ But here's the catch: you can use only one `if`. No multiple branches, ternary o
     
     php index.php
     
+### Run Unit Test
+
+    php vendor/bin/phpunit test
+    
 ### Candidate
 
 * Mario Hidalgo García
