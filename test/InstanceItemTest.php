@@ -3,18 +3,18 @@ declare(strict_types=1);
 
 namespace MarioDevment\Linio\Test;
 
-use MarioDevment\Linio\Application\InstenceItem;
+use MarioDevment\Linio\Application\instanceItem;
 use PHPUnit\Framework\TestCase;
 
 final class InstanceItemTest extends TestCase
 {
-    /** @var InstenceItem|null * */
+    /** @var instanceItem|null * */
     private $instanceItem;
 
     public function setUp(): void
     {
         parent::setUp();
-        $this->instanceItem = new InstenceItem();
+        $this->instanceItem = new instanceItem();
     }
 
     public function tearDown(): void
@@ -64,8 +64,24 @@ final class InstanceItemTest extends TestCase
                 "index"   => 21,
                 "message" => "Linio",
             ],
+            "30"        => [
+                "index"   => 30,
+                "message" => "Linianos",
+            ],
+            "60"        => [
+                "index"   => 60,
+                "message" => "Linianos",
+            ],
+            "65"        => [
+                "index"   => 65,
+                "message" => "IT",
+            ],
             "75"        => [
                 "index"   => 75,
+                "message" => "Linianos",
+            ],
+            "90"        => [
+                "index"   => 90,
                 "message" => "Linianos",
             ],
             "99"        => [
