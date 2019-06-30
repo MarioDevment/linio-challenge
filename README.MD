@@ -15,7 +15,15 @@ But here's the catch: you can use only one `if`. No multiple branches, ternary o
     php composer.phar install
     
 ### Execute
+
+a basic example controller is included in index.php
+
+    $repository = new InMemoryRepository();
+    $app = new Challenge($repository);
+    print(json_encode($app(), JSON_PRETTY_PRINT));
     
+to run the program execute the following line
+
     php index.php
     
 ### Run Unit Test
