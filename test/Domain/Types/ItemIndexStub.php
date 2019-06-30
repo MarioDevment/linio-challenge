@@ -8,9 +8,9 @@ use MarioDevment\Linio\Domain\Types\ItemIndex;
 
 final class ItemIndexStub
 {
-    public static function create(int $description): ItemIndex
+    public static function create(int $index): ItemIndex
     {
-        return new ItemIndex($description);
+        return new ItemIndex($index);
     }
 
     public static function random(): ItemIndex

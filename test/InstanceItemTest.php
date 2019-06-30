@@ -23,7 +23,7 @@ final class InstanceItemTest extends TestCase
     }
 
     /**
-     * @dataProvider dataProveider
+     * @dataProvider dataProvider
      * @param int $index
      * @param string $message
      */
@@ -33,7 +33,7 @@ final class InstanceItemTest extends TestCase
         $this->assertSame($message, $item->message()->value());
     }
 
-    public function dataProveider(): array
+    public function dataProvider(): array
     {
         return [
             "1"         => [

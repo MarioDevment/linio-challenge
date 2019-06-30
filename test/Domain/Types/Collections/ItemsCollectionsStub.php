@@ -4,8 +4,8 @@ declare(strict_types=1);
 namespace MarioDevment\Linio\Test\Domain\Types\Collections;
 
 use Faker\Factory;
-use MarioDevment\FCAB\Test\Organization\Domain\ItemEntryStub;
 use MarioDevment\Linio\Domain\Types\Collections\ItemsCollections;
+use MarioDevment\Linio\Test\Domain\ItemEntryStub;
 
 final class ItemsCollectionsStub
 {
