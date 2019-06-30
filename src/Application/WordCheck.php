@@ -7,7 +7,7 @@ use MarioDevment\Linio\Domain\ItemEntry;
 use MarioDevment\Linio\Domain\Types\ItemIndex;
 use MarioDevment\Linio\Domain\Types\ItemMessage;
 
-final class instanceItem
+final class WordCheck
 {
     const IT       = "IT";
     const LINIO    = "Linio";

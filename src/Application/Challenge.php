@@ -22,8 +22,8 @@ final class Challenge
         $items = $this->repository->items();
 
         foreach ($items as $item) {
-            $instanceItems            = new instanceItem();
-            $this->itemsCollections[] = $instanceItems($item);
+            $wordCheck                = new WordCheck();
+            $this->itemsCollections[] = $wordCheck($item);
         }
 
         return new ItemsCollections($this->itemsCollections);

@@ -3,18 +3,18 @@ declare(strict_types=1);
 
 namespace MarioDevment\Linio\Test;
 
-use MarioDevment\Linio\Application\instanceItem;
+use MarioDevment\Linio\Application\WordCheck;
 use PHPUnit\Framework\TestCase;
 
-final class InstanceItemTest extends TestCase
+final class WordCheckTest extends TestCase
 {
-    /** @var instanceItem|null * */
+    /** @var WordCheck|null * */
     private $instanceItem;
 
     public function setUp(): void
     {
         parent::setUp();
-        $this->instanceItem = new instanceItem();
+        $this->instanceItem = new WordCheck();
     }
 
     public function tearDown(): void
