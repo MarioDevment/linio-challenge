@@ -22,7 +22,7 @@ final class Challenge
         $items = $this->repository->items();
 
         foreach ($items as $item) {
-            $instanceItems            = new InstenceItem();
+            $instanceItems            = new instanceItem();
             $this->itemsCollections[] = $instanceItems($item);
         }
 
